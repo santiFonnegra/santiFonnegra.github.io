@@ -1,0 +1,19 @@
+names(MEAP93)
+model <- lm(math10 ~ lexpend, data=MEAP93)
+summary(model)
+
+fitted_values <- fitted(model)
+max(fitted_values)
+
+
+plot(MEAP93$lexpend, MEAP93$math10, main="Scatterplot of math10 vs lexpend", xlab="lexpend", ylab="math10")
+abline(model, col="red")
+
+
+fitted_values <- fitted(model)
+plot(MEAP93$expend, fitted_values, main="Scatterplot of Fitted Values vs expend", xlab="expend", ylab="Fitted Values")
+
+
+MEAP93$math10 <- MEAP93$math10 / 100
+new_model <- lm(math10 ~ lexpend, data=MEAP93)
+summary(new_model)

@@ -1,0 +1,1 @@
+{"frames":[],"message":"Error: Incomplete expression: # your code goes below (make sure to edit comment)\npositions <- c()\nfor (letter in name_v){\n  positions <- c(positions, which( letters == letter))\n  \n}\n\nletters[positions]\n"}

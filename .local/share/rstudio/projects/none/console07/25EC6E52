@@ -1,0 +1,53 @@
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ [K]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ [K]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ 2023-08-30T18:12:06.263036Z [rsession-sf27787] ERROR system error 2 (No such file or directory) [description: Error changing directory: '/proc/1227024/cwd']; OCCURRED AT rstudio::core::Error rstudio::core::system::ChildProcess::run() src/cpp/core/system/PosixChildProcess.cpp:743; LOGGED FROM: rstudio::core::Error rstudio::core::system::ChildProcess::run() src/cpp/core/system/PosixChildProcess.cpp:743
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ co[Kp ?stor [K/[K[K[K[K[K[K?[K/sta=o[K[K[Kor?[K/work?[K/sds322[K[K[K[K[K[K[KS[K/SDS322E_AAF[K[KF_fall[K[K[K[KFALL[K[K[Kall2023/worok [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Krks heet[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs htt[K[Keets/WW[Ks[KS5.R ~/S[KWorks[K[K[Krks
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ cp /stor/work/SDS322E_AF_Fall2023/worksheets/WS7.R ./
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ worksheet/
+bash: worksheet/: No such file or directory
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ cp /stor/work/SDS322E_AF_Fall2023/worksheets/WS7.R ./
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ worksheet/cp /stor/work/SDS322E_AF_Fall2023/worksheets/WS7.R ./.
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ 
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ cp /stor/work/SDS322E_AF_Fall2023/worksheets/WS7.R ./
+]0;/stor/home/sf27787]0;sf27787@educcomp02: ~[01;32msf27787@educcomp02[00m:[01;34m~[00m$ [K]0;sf27787@educcomp02: ~[01;32msf27787@educcomp02[00m:[01;34m~[00m$ cp /stor/work/SDS322E_AF_Fall2023/worksheets/WS8.R ./
+]0;/stor/home/sf27787]0;sf27787@educcomp02: ~[01;32msf27787@educcomp02[00m:[01;34m~[00m$ worksheet/.
+bash: worksheet/.: No such file or directory
+]0;/stor/home/sf27787]0;sf27787@educcomp01: ~[01;32msf27787@educcomp01[00m:[01;34m~[00m$ cp /stor/work/SDS322E_AF_Fall2022/worksheets/WS10.Rmd ~[A]0;sf27787@educcomp01: ~[01;32msf27787@educcomp01[00m:[01;34m~[00m$ worksheet/.[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp /stor/work/SDS322E_AF_Fall2022/worksheets/WS10.Rmd ~[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C32/worksh[C[1@e[A]0;sf27787@educcomp01: ~[01;32msf27787@educcomp01[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2/workshe[C[1P[A]0;sf27787@educcomp01: ~[01;32msf27787@educcomp01[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C32/worksh[C[1@e[A]0;sf27787@educcomp01: ~[01;32msf27787@educcomp01[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C32/workshe[C[1P[A]0;sf27787@educcomp01: ~[01;32msf27787@educcomp01[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C232/worksh[C[1@e[A]0;sf27787@educcomp01: ~[01;32msf27787@educcomp01[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/workshe[C[1P[A]0;sf27787@educcomp01: ~[01;32msf27787@educcomp01[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;/stor/home/sf27787]0;sf27787@educcomp01: ~[01;32msf27787@educcomp01[00m:[01;34m~[00m$ cp /stor/work/SDS322E_AF_Fall2023/worksheets/WS10.Rmd ~
+]0;/stor/home/sf27787]0;sf27787@educcomp01: ~[01;32msf27787@educcomp01[00m:[01;34m~[00m$ co[Kp ?[K?[K/store[K/work/ses[K[K[KSDS3224[KE_AF_Fall2023/worksh eets.[K/w[KWS11.rm[K[KRM[Kr[Kmr[Kd-[K~[K ~^C
+]0;/stor/home/sf27787]0;sf27787@educcomp01: ~[01;32msf27787@educcomp01[00m:[01;34m~[00m$ 
+]0;/stor/home/sf27787]0;sf27787@educcomp01: ~[01;32msf27787@educcomp01[00m:[01;34m~[00m$ cp /stor/work/SDS322E_AF_Fall2023/worksheets/WS11.Rmd ~ echo DB3A571C && echo $HISTCONTROL && /usr/bin/env && echo 0E4CB6EA
+cp: target 'DB3A571C' is not a directory
+mkdir _[K=[K~?[K?[K?[K/homepage
+mkdir: cannot create directory ‘/stor/home/sf27787/homepage’: File exists
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ ls _[K=[K=[K[K - a
+ls: cannot access '-': No such file or directory
+ls: cannot access 'a': No such file or directory
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ git init
+Initialized empty Git repository in /stor/home/sf27787/.git/
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$  git init
+Reinitialized existing Git repository in /stor/home/sf27787/.git/
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ ls
+[0m[01;34mhomepage[0m  [01;34mHW[0m  [01;34mR[0m  Works
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ ls=[K+[K-a
+ls-a: command not found
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ mkdir ~/homepage
+mkdir: cannot create directory ‘/stor/home/sf27787/homepage’: File exists
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ mkdir ~/homepage[K[K[Kage
+mkdir: cannot create directory ‘/stor/home/sf27787/homepage’: File exists
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ ls
+[0m[01;34mhomepage[0m  [01;34mHW[0m  [01;34mR[0m  Works
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ [[Kla[Ks=[K-a
+ls-a: command not found
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ las[K[Ks =[K[K -a
+[0m[01;34m.[0m   .bash_history  .bashrc  [01;34m.git[0m      [01;34mHW[0m      .profile  Works
+[01;34m..[0m  .bash_logout   [01;34m.config[0m  [01;34mhomepage[0m  [01;34m.local[0m  [01;34mR[0m         [34;42m.zfs[0m
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ ls =[K=[K-1
+[0m[01;34mhomepage[0m
+[01;34mHW[0m
+[01;34mR[0m
+Works
+]0;/stor/home/sf27787]0;sf27787@educcomp04: ~[01;32msf27787@educcomp04[00m:[01;34m~[00m$ git add . 
+warning: could not open directory '.zfs/shares/': Stale file handle

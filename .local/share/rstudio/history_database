@@ -1,0 +1,969 @@
+1693265893527:"tinytex'
+1693265904831:"tinytex"
+1693265943832:"tinytex"
+1693265943835:install.packages("tinytex")
+1693266132283:tinytex::install_tinytex()
+1693267131562:install.packages("tinytex")
+1693267131585:Y
+1693267143829:install.packages("tinytex")
+1693267171169:'mtcars'
+1693348413691:`?mtcars`
+1693348441278:`?mtcars`
+1693348578929:head(mtcars)
+1693348910012:my_mtcars <- mtcars
+1693348946184:View(my_mtcars)
+1693349005031:head(mtcars)
+1693349005038:dim(mtcars)
+1693349185785:View(my_mtcars)
+1693349212370:head(mtcars)
+1693349212379:dim(mtcars)
+1693349212381:sf27787 <- mtcars
+1693371751006:sf27787 <- mtcarsbirthday_mpg <- SF27787$mpg[10]
+1693371805350:birthday_mpg <- sf27787$mpg[10]
+1693371811485:birthday_mpg
+1693372955160:sum(sf27787$mpg > 30)
+1693373591423:sf27787$kpl <- sf27787$mpg * .425
+1693418826734:library (dslabs)
+1693418903410:library(dslabs)
+1693419016708:install.packages("dslabs")
+1693419118646:data(murders)
+1693419665625:library(dslabs)
+1693419680472:data(murders)
+1693419680479:head(murders)
+1693419722280:murder_rate <- Murder$total / muder$population*1000
+1693419734681:murder_rate <- Murder$total / muder$population*1000
+1693419742845:murder_rate <- Murder$total / muder$population*1000
+1693419754316:murder_rate <- Murder$total / muder$population*1000
+1693419799855:murder_rate <- murders$total / murders$population * 100000
+1693420299506:library(dslabs)
+1693420340472:data(historic_co2)
+1693420344481:force(historic_co2)
+1693420425952:ind <- which.min(Carbon400)
+1693420521656:View(historic_co2)
+1693420617979:any(historic_co2$co2 > 500)
+1693420633563:#other approach
+1693420633567:any(historic_co2$co2 > 500)
+1693420633571:any(historic_co2$co2 > 400)
+1693614655014:sf27787$kpl <- sf27787$mpg * .425
+1693614655038:mean(airquality$Ozone).
+1693614665971:mean(airquality$Ozone)
+1693614854453:airquality
+1693614867813:airquality
+1693614867835:mean(airquality$Ozone).
+1693614901873:mean(airquality$Ozone)
+1693677555833:mtcars$ <-mtcars$mpg *.425
+1693677582748:mtcars$klp <-mtcars$mpg *.425
+1693677950800:max_kpl <- max(mtcars$kpl)
+1693680144941:filtered_mtcars <-mtcars[!is.na(mtcars$kpl),]
+1693680210986:filtered_mtcars <- max(filtered_mtcars$kpl)
+1693680777068:filtered_mtcars <- max(filtered_mtcars$kpl)
+1693680790192:filtered_mtcars <- max(filtered_mtcars$kpl)
+1693762475293:`?mtcars`
+1693762526559:head(mtcars)
+1693764127313:head(mtcars)
+1693764127326:mymtcars <- mtcars
+1693764159671:head(mtcars)
+1693764159681:mymtcars <- mtcars
+1693764159684:sf27787 <--mtcars
+1693765230023:View(sf27787)
+1693765572996:head(mtcars)
+1693765573008:mymtcars <- mtcars
+1693765573012:sf27787 <--mtcars
+1693765573019:santi's_b_day <- 8
+1693765988811:head(mtcars)
+1693765988817:mymtcars <- mtcars
+1693765988822:sf27787 <--mtcars
+1693765988827:santi's_b_day <- 8
+1693766017207:head(mtcars)
+1693766017218:mymtcars <- mtcars
+1693766017221:sf27787 <--mtcars
+1693766017227:santi's_b_day <- 8
+1693766017232:birthday_mpg <- mymtcars$mpg[santi's_b_day]
+1693766106832:santis_b_day <- 8   # Assuming your birthday day is 8
+1693767228736:santis_b_day <- 8
+1693767243200:birthday_mpg <- mymtcars$mpg[santis_b_day]
+1693768071017:cat("Fuel Efficiency (mpg) on your birthday (day", santis_b_day, "):", birthday_mpg, "\n")
+1693793653855:sum(sf27787$mpg > 30)
+1693793822617:sum(sf27787$mpg > 30)
+1693793822621:sum(mymtcars$mpg > 30)
+1693794517362:mymtcars$kpl <- mymtcars$mpg * 0.425
+1693794526785:max_kpl <- max(mtcars$kpl, na.rm = TRUE)
+1693794542368:max_kpl <- max(mymtcars$kpl, na.rm = TRUE)
+1693794547512:cat("Maximum Fuel Efficiency (kpl):", max_kpl, "\n")
+1693795140379:airquality
+1693795177228:myair <- airquality
+1693795587417:mean_ozone <- mean(myair$Ozone)
+1693795635736:mean_ozone
+1693795812092:names(myair)
+1693795866003:mean_oz <- mean(myair$0zone,na.rm =TRUE)
+1693795875367:mean_oz <- mean(myair$0zone,na.rm = TRUE)
+1693795985391:mean_oz <- mean(myair$Ozone, na.rm = TRUE)
+1693795998629:mean_oz
+1693797915484:View(myair)
+1693798166811:`mean()`
+1693798182181:`?mean()`
+1693798204144:`?mean`
+1693798227938:`?mean`
+1693802124217:?base::mean
+1693940509903:library(haven)
+1693940509955:JTRAIN2 <- read_dta("R/JTRAIN2.DTA")
+1693940510010:View(JTRAIN2)
+1693940515652:library(haven)
+1693940515659:BWGHT <- read_dta("R/BWGHT.DTA")
+1693940515675:View(BWGHT)
+1693940557935:names(JTRAIN2)
+1693940577764:names(BWGHT)
+1693940799834:# Assuming BWGHT is the data frame containing the dataset
+1693940799838:smoking_mothers_avg_bwght <- mean(BWGHT$bwght[BWGHT$cigs > 0])
+1693940799843:non_smoking_mothers_avg_bwght <- mean(BWGHT$bwght[BWGHT$cigs == 0])
+1693940799853:difference <- smoking_mothers_avg_bwght - non_smoking_mothers_avg_bwght
+1693940820534:difference
+1693941074428:cor_bwght_faminc <- cor(BWGHT$bwght, BWGHT$faminc)
+1693941074434:cor_bwght_motheduc <- cor(BWGHT$bwght, BWGHT$motheduc)
+1693941074437:cor_bwght_cigs <- cor(BWGHT$bwght, BWGHT$cigs)
+1693941079113:max_correlation <- max(abs(cor_bwght_faminc), abs(cor_bwght_motheduc), abs(cor_bwght_cigs))
+1693941090102:max_correlation
+1693941239751:source("~/.active-rstudio-document")
+1693941240277:source("~/.active-rstudio-document")
+1693941259953:cor_bwght_faminc <- cor(BWGHT$bwght, BWGHT$faminc, use="complete.obs")
+1693941259960:cor_bwght_motheduc <- cor(BWGHT$bwght, BWGHT$motheduc, use="complete.obs")
+1693941259967:cor_bwght_cigs <- cor(BWGHT$bwght, BWGHT$cigs, use="complete.obs")
+1693941259975:# Determine which has the highest magnitude of correlation
+1693941259984:max_correlation_value <- max(abs(cor_bwght_faminc), abs(cor_bwght_motheduc), abs(cor_bwght_cigs))
+1693941259991:# Identify which variable has the highest correlation in magnitude with bwght
+1693941259996:if (max_correlation_value == abs(cor_bwght_faminc)) {
+1693941260002:max_correlation_variable <- "faminc"
+1693941260009:} else if (max_correlation_value == abs(cor_bwght_motheduc)) {
+1693941260015:max_correlation_variable <- "motheduc"
+1693941260022:} else {
+1693941260030:max_correlation_variable <- "cigs"
+1693941260038:}
+1693941271144:max_correlation_value
+1693941616480:difference_lbs <- difference / 16
+1693941844185:cov_bwght_faminc_oz <- cov(BWGHT$bwght, BWGHT$faminc)
+1693941844196:cov_bwght_motheduc_oz <- cov(BWGHT$bwght, BWGHT$motheduc)
+1693941844206:cov_bwght_cigs_oz <- cov(BWGHT$bwght, BWGHT$cigs)
+1693941844215:cov_bwght_faminc_lbs <- cov_bwght_faminc_oz / 16
+1693941844230:cov_bwght_motheduc_lbs <- cov_bwght_motheduc_oz / 16
+1693941844241:cov_bwght_cigs_lbs <- cov_bwght_cigs_oz / 16
+1693941874549:cov_bwght_faminc_oz <- cov(BWGHT$bwght, BWGHT$faminc)
+1693941874558:cov_bwght_motheduc_oz <- cov(BWGHT$bwght, BWGHT$motheduc)
+1693941874566:cov_bwght_cigs_oz <- cov(BWGHT$bwght, BWGHT$cigs)
+1693941874578:cov_bwght_faminc_lbs <- cov_bwght_faminc_oz / 16
+1693941874585:cov_bwght_motheduc_lbs <- cov_bwght_motheduc_oz / 16
+1693941874593:cov_bwght_cigs_lbs <- cov_bwght_cigs_oz / 16
+1693942379288:avg_educ <- mean(JTRAIN2$educ, na.rm = TRUE)
+1693942379294:min_educ <- min(JTRAIN2$educ, na.rm = TRUE)
+1693942379300:max_educ <- max(JTRAIN2$educ, na.rm = TRUE)
+1693942505335:avg_educ <- mean(JTRAIN2$educ, na.rm = TRUE)
+1693942505341:min_educ <- min(JTRAIN2$educ, na.rm = TRUE)
+1693942505349:max_educ <- max(JTRAIN2$educ, na.rm = TRUE)
+1693942532437:avg_educ
+1693942538022:min_educ
+1693942543214:max_educ
+1693942672204:avg_wage <- mean(JTRAIN2$train, na.rm = TRUE)
+1693942679692:avg_wage
+1693942871879:cpi_1976 <- 56.9
+1693942871884:cpi_2013 <- 232.957
+1693942871893:avg_wage_2013 <- avg_wage * (cpi_2013 / cpi_1976)
+1693942879068:avg_wage_2013
+1693954314328:trimmed_mean_oz <- mean(airquality$Ozone, trim = 0.1, na.rm = TRUE)
+1693954330640:trimmed_mean_ozone <- mean(myair$ozone)
+1693954330651:# Hypothetical code to compute trimmed mean for Ozone
+1693954330665:trimmed_mean_oz <- mean(airquality$Ozone, trim = 0.1, na.rm = TRUE)
+1693954330677:trimmed_mean_oz
+1693954659550:trimmed_mean_oz <- mean(myair$Ozone, trim = 0.1, na.rm = TRUE)
+1693959398878:###test
+1693959399841:###test
+1693959485413:######Test
+1693959748233:`r  knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/d/d8/UT-Tower-in-Orange.jpg")`
+1693959779647:#Test
+1693961704756:birthdays <- 1:365
+1693961714365:samp <- sample(birthdays, size=35, replace=T)
+1694102283369:source("~/HW/HW-1.html")
+1694216559103:# your code goes below (make sure to edit comment)
+1694216559106:letters
+1694217111291:class(letters)
+1694217119998:class(letters)
+1694217125782:class(letters)
+1694217418362:lenght(letters)
+1694217427461:lenght(letters)
+1694217439043:length(letters)
+1694219252286:test <- unlist(strsplit("test", split = ""))
+1694219266135:letters %in% test
+1694219413322:logical_vector <- letters %in% test
+1694219413327:sum(!logical_vector)
+1694219647404:which(c(F,T,F,T,F,T))
+1694219742402:name_v <- unlist(strsplit("arya", split = ""))
+1694219835298:# your code goes below (make sure to edit comment)
+1694219835301:Position_arya <- which(letters %in% name_v)
+1694219837666:Position_arya
+1694220014637:position <- c()
+1694220014640:for (letter in name_v) {
+1694220014643:positions <- c(positions, which( letters == letters))
+1694220014648:}
+1694220056414:positions <- c()
+1694220056418:for (letter in name_v) {
+1694220056421:positions <- c(positions, which( letters == letters))
+1694220056426:}
+1694220056436:letters[positions]
+1694220112487:encoded_positions <- positions + 1
+1694220112494:# Indexing 'letters' to obtain the encoded name
+1694220112497:encoded_name <- letters[encoded_positions]
+1694220112500:encoded_name
+1694220477737:get_position <- function(name) {
+1694220477740:name_v <- unlist(strsplit(name, split = ""))
+1694220477743:positions <- c()
+1694220477746:for (letter in name_v) {
+1694220477748:positions <- c(positions, which(letters == letter))
+1694220477751:}
+1694220477754:return(positions)
+1694220477756:}
+1694220477762:# Testing the function with 'arya'
+1694220477764:get_position("arya")
+1694220644646:letters[get_position(name_v) + 2]
+1694220667850:shifted_positions <- (get_position(name_v) + 2) %% 26
+1694220667855:corrected_positions <- ifelse(shifted_positions == 0, 26, shifted_positions)
+1694220667859:encoded_name <- letters[corrected_positions]
+1694220667862:encoded_name
+1694220687968:27 %% 26
+1694220827812:deciphered_name_1 <- cipher("oldp", -1)
+1694220927099:cipher <- function(name, k) {
+1694220927102:positions <- get_position(name)
+1694220927106:shifted_positions <- (positions + k) %% 26
+1694220927108:corrected_positions <- ifelse(shifted_positions == 0, 26, shifted_positions)
+1694220927111:encoded_name <- letters[corrected_positions]
+1694220927114:return(encoded_name)
+1694220927117:}
+1694220927122:# Checking the function with 'arya' shifted by 2 positions
+1694220927125:cipher("arya", 2)
+1694220927136:# Testing the function with another name (e.g., "sam") shifted by 3 positions
+1694220927139:cipher("sam", 3)
+1694221460744:for (letter in name_v) {
+1694221502722:# your code goes below (make sure to edit comment)
+1694221502726:positions <- c()
+1694221502730:for (letter in name_v){
+1694221502734:positions <- c(positions, which( letters == letter))
+1694221502741:}
+1694221502747:letters[positions]
+1694224957770:cipher <- function(name, k) {
+1694224957775:name_v <- unlist(strsplit(name, split = ""))
+1694224957780:positions <- c()
+1694224957783:for (letter in name_v){
+1694224957786:pos <- which(letters == letter)
+1694224957789:shifted_pos <- (pos + k)%% 26
+1694224957793:shifted_pos <-ifelse (shifted_pos == 0, 26, shifted_pos)
+1694224957798:position <- c(positions, shofted_pos)
+1694224957803:}
+1694224957808:encoded_name <- letters[positions]
+1694224957810:return(paste(encoded_name, collapse = ""))
+1694224957816:}
+1694224957822:# check
+1694224957825:cipher("arya", 2)
+1694225015705:# edit the code below (make sure to edit comment)
+1694225015709:cipher <- function(name, k) {
+1694225015715:name_v <- unlist(strsplit(name, split = ""))
+1694225015725:positions <- c()
+1694225015729:for (letter in name_v){
+1694225015732:pos <- which(letters == letter)
+1694225015735:shifted_pos <- (pos + k)%% 26
+1694225015741:shifted_pos <-ifelse (shifted_pos == 0, 26, shifted_pos)
+1694225015748:position <- c(positions, shofted_pos)
+1694225015755:}
+1694225015761:encoded_name <- letters[positions]
+1694225015764:return(paste(encoded_name, collapse = ""))
+1694225015770:}
+1694225015777:# check
+1694225015801:cipher("arya", 2)
+1694225136857:# edit the code below (make sure to edit comment)
+1694225136860:cipher <- function(name, k) {
+1694225136867:name_v <- unlist(strsplit(name, split = ""))
+1694225136873:positions <- c()
+1694225136877:for (letter in name_v) {
+1694225136880:pos <- which(letters == letter)
+1694225136884:shifted_pos <- (pos + k) %% 26
+1694225136887:shifted_pos <- ifelse(shifted_pos == 0, 26, shifted_pos)
+1694225136891:positions <- c(positions, shifted_pos)
+1694225136894:}
+1694225136900:encoded_name <- letters[positions]
+1694225136903:return(paste(encoded_name, collapse = ""))
+1694225136906:}
+1694225136913:# check
+1694225136916:cipher("arya", 2)
+1694225136935:# test with your name!
+1694225136938:cipher <- function(name, k) {
+1694225136941:positions <- get_position(name)
+1694225136944:shifted_positions <- (positions + k) %% 26
+1694225136951:corrected_positions <- ifelse(shifted_positions == 0, 26, shifted_positions)
+1694225136955:encoded_name <- letters[corrected_positions]
+1694225136958:return(encoded_name)
+1694225136961:}
+1694225136968:# Checking the function with 'arya' shifted by 2 positions
+1694225136971:cipher("arya", 2)
+1694225136979:# Testing the function with another name (e.g., "sam") shifted by 3 positions
+1694225136982:cipher("sam", 3)
+1694283509698:# your code goes below (make sure to edit comment)
+1694283509701:mtcars
+1694283743551:# your code goes below (make sure to edit comment)
+1694283743555:dim(mtcars)
+1694376721174:# your code goes below (make sure to edit comment)
+1694376721177:sf<- mtcars
+1694380189070:# your code goes below (make sure to edit comment)
+1694380189072:sf27787<- mtcars
+1694380408512:# your code goes below (make sure to edit comment)
+1694380408514:birthday_mpg <- sf27787$mpg[8]
+1694380445523:birthday_mpg
+1694410236718:sum(sf27787$mpg > 30)
+1694410852961:sf27787$kpl <- sf27787$mpg * 0.425
+1694410858853:max_kpl <- max(sf27787$kpl)
+1694410919958:max_kpl
+1694444211524:# your code goes below (make sure to edit comment)
+1694444211527:airquality
+1694444544000:mean(airquality$Ozone, na.rm =TRUE)
+1694448344341:trimmed_mean <- mean(airquality$Ozone, trim = 0.1, na.rm = TRUE)
+1694448355519:trimmed_mean
+1694456913268:library(dslabs)
+1694456915747:library(ggplot2)
+1694456919135:data(murders)
+1694456922445:murders$rate <- murders$total / murders$population*100000
+1694456958606:data(mpg)
+1694456964152:?mpg
+1694456971886:p <- ggplot(data = mpg, mapping = aes(x = displ, y = hwy))
+1694456980956:p + geom_point()
+1694457072598:p + geom_point(mapping = aes(color = class))
+1694457169532:data(Orange)
+1694457172731:head(Orange)
+1694457189689:p <- ggplot(data = Orange, aes(x = age, y = circumference, color = Tree))
+1694457215318:p + geom_point(size = 4, alpha = 0.8)
+1694457276922:p + geom_point(size = 4) + geom_line(aes(group=Tree))
+1694457335137:p + geom_point(size = 4) +
+1694457335140:geom_line(aes(group=Tree, linetype=Tree))
+1694457464551:p + geom_point(size = 4) +
+1694457464554:geom_line(aes(group=Tree, linetype=Tree), size=3)
+1694457532035:p + geom_point(size = 4) + geom_line(aes(group=Tree)) +
+1694457532038:theme_minimal()
+1694457638649:p1 <- p + geom_point(size = 4) + geom_line(aes(group=Tree)) +
+1694457638652:theme(legend.position="none")
+1694457968328:scale_x_log10() +
+1694457970640:scale_y_log10() +
+1694457989842:p1 <- p + geom_line(aes(group=Tree)) + theme(legend.position="none") +
+1694457989845:ggtitle("Growth of Orange Trees") + ylab("Circumference") + xlab("Age")
+1694458174113:p1 + facet_wrap(~Tree)
+1694458180284:p1 + facet_wrap(~Tree, ncol = 5)
+1694458237118:ggplot(data = Orange, aes(x = age, y = circumference)) +
+1694458237121:geom_point() + geom_smooth(method="lm")
+1694458329241:ggplot(data = Orange, aes(x = age, y = circumference, color=Tree)) +
+1694458329244:geom_point() + geom_smooth(method="lm", se=F)
+1694458337058:ggplot(data = Orange, aes(x = age, y = circumference, color=Tree)) +
+1694458337061:geom_smooth(method="lm", se=F) + geom_point()
+1694458339628:ggplot(data = Orange, aes(x = age, y = circumference, color=Tree)) +
+1694458339630:geom_smooth(method="lm", se=F) + geom_point()
+1694539514573:library(haven)
+1694539514600:WAGE2 <- read_dta("R/WAGE2.DTA")
+1694539514672:View(WAGE2)
+1694539547975:WAGE2
+1694539554261:library(haven)
+1694539554264:WAGE2 <- read_dta("R/WAGE2.DTA")
+1694539554279:View(WAGE2)
+1694540140004:head(WAGE2)
+1694540154705:variable.names(WAGE2)
+1694540842037:avg_wage <- mean(WAGE2$wage)
+1694540863388:avg_IQ <- mean(WAGE2$IQ)
+1694540901892:sd_IQ <- sd(WAGE2$IQ)
+1694541157553:model <- lm(wage ~ IQ, data = WAGE2)
+1694541166941:summary(model)
+1694541497482:predicted_increase <- coef(model)["IQ"] * 15
+1694542066286:predicted_increase
+1694542300993:avg_IQ
+1694542305675:avg_wage
+1694542926582:sd_IQ
+1694543124686:plot(WAGE2$IQ, WAGE2$wage, main="Wage vs. IQ", xlab="IQ", ylab="Wage", pch=16, col="blue")
+1694543124722:abline(model, col="red")
+1694543458280:# (i) Ratio of sample covariance to variance of IQ
+1694543458283:cov_ratio <- cov(WAGE2$wage, WAGE2$IQ) / var(WAGE2$IQ)
+1694543458288:# (ii) Sample correlation times ratio of standard deviations
+1694543458290:corr_ratio <- cor(WAGE2$wage, WAGE2$IQ) * (sd(WAGE2$wage) / sd(WAGE2$IQ))
+1694543495987:cov_ratio
+1694543534645:cov_ratio
+1694543542384:corr_ratio
+1694543774953:# Compare sample average of wagehat to wage
+1694543774956:avg_wagehat <- mean(WAGE2$wagehat)
+1694543774969:avg_wage <- mean(WAGE2$wage)
+1694543774973:# Correlation between wagehat and IQ
+1694543774975:corr_wagehat_IQ <- cor(WAGE2$wagehat, WAGE2$IQ)
+1694544198164:avg_uhat <- mean(WAGE2$uhat)
+1694628622059:ggplot(data = Orange, aes(x = age, y = circumference)) + geom_boxplot()
+1694628629554:Orange$age<-as.factor(Orange$age)
+1694628629557:ggplot(Orange, aes(x=age, y=circumference)) + geom_boxplot()
+1694628915147:ggplot(Orange, aes(x=age, y=circumference)) + geom_boxplot() + geom_jitter(alpha=.5)
+1694628928954:ggplot(Orange, aes(x=circumference)) + geom_histogram()
+1694628933969:ggplot(Orange, aes(x=circumference, fill=age)) + geom_histogram(bins=60)
+1694628950817:ggplot(Orange, aes(x=circumference, fill=age)) + geom_histogram(bins=60) +
+1694628950820:theme(legend.position=c(.3,.8), legend.direction = "horizontal")
+1694628975856:ggplot(Orange, aes(x=circumference, fill=age)) +
+1694628975858:geom_density(alpha=0.7, bw=5) +
+1694628975861:theme(legend.position=c(.3,.8), legend.direction = "horizontal")
+1694628989275:ggplot(Orange, aes(x=circumference, fill=age)) +
+1694628989278:geom_density(alpha=0.7, bw=5) +  geom_rug() +
+1694628989280:theme(legend.position=c(.3,.8), legend.direction = "horizontal")
+1694629145777:ggplot(Orange, aes(x=age, y=circumference, fill=age)) +
+1694629145780:geom_violin(trim=F, bw=10)
+1694629196270:ggplot(Orange, aes(x=age, y=circumference, fill=age)) +
+1694629196272:geom_violin(trim=F, bw=10) + geom_boxplot(width=.1)
+1694629574587:data(msleep)
+1694629574592:head(msleep)
+1694629574657:str(msleep)
+1694629574670:# make a scatter plot
+1694629574672:p <- ggplot(msleep, aes(sleep_total, sleep_rem)) + geom_point()
+1694629574677:p
+1694629574921:# let's add geom_smooth()
+1694629574923:p + geom_smooth()
+1694629576341:# linear trend
+1694629576343:p + geom_smooth(method='lm')
+1694629817104:str(msleep)
+1694629827583:head(msleep)
+1694631041481:p <- ggplot(msleep, aes(sleep_total, sleep_rem)) + geom_point()
+1694631041487:p
+1694631041719:# let's add geom_smooth()
+1694631041721:p + geom_smooth()
+1694631042057:# linear trend
+1694631042058:p + geom_smooth(method='lm')
+1694631042370:ggplot(msleep, aes(x=sleep_total, y=sleep_rem)) + geom_point(aes(color=vore, size=bodywt))
+1694631042792:### BAR PLOTS and SUMMARY STATS
+1694631042796:# Count of each dietary classification in the dataset
+1694631042798:ggplot(msleep, aes(vore))+geom_bar(stat="count")
+1694631043280:# Let's omit the NAs from the vore variable
+1694631043282:# is.na(x) tests if each element of x is an NA, TRUE if so, FALSE otherwise
+1694631043284:# We negate this using the not operator ! (flips T to F and F to T)
+1694631043286:msleep1<-msleep[!is.na(msleep$vore),] #delete all rows with NA for vore
+1694631043288:ggplot(msleep1, aes(vore))+geom_bar(stat="count")
+1694631043513:# exercise
+1694631043515:ggplot(msleep1, aes(x = vore, fill = vore))+geom_bar()+
+1694631043517:theme(legend.position = "none")+
+1694631043519:ggtitle("Prettier Plot!")+xlab("Dietary Habit")+ylab("Count")
+1694631043757:# Let's create a new categorical variable called size
+1694631043759:# If bodywt is less than the median, then "Small", else "Large"
+1694631043761:msleep1$size <- ifelse(msleep1$bodywt<median(msleep1$bodywt), "Small", "Large")
+1694631043763:str(msleep1)
+1694631043777:# let's plot bar chart again
+1694631043778:# We can add this new variable to the previous plot
+1694631043780:# vore and size are both categorical: geom_bar() knows what to do!
+1694631043781:ggplot(msleep1, aes(x = vore, fill=size))+geom_bar()
+1694631044108:# change the order
+1694631044110:msleep1$size <- factor(msleep1$size,levels = c("Small","Large"))
+1694631044112:ggplot(msleep1, aes(x = vore, fill=size))+geom_bar()
+1694631044443:# instead of stacked, you can stagger the bars with position="dodge"
+1694631044445:ggplot(msleep1, aes(x = vore, fill=size)) +
+1694631044447:geom_bar(position="dodge")
+1694631044816:# Proportions within each level of x-axis variable
+1694631044819:# Here, marginal distribution of size given each vore
+1694631044821:ggplot(msleep1, aes(x = vore, fill=size)) +
+1694631044822:geom_bar(position="fill")
+1694631045170:# Swap the position of the categorical variables
+1694631045172:ggplot(msleep1, aes(x = size, fill=vore)) +
+1694631045175:geom_bar(position="fill")
+1694631045612:ggplot(msleep1, aes(x = vore))+
+1694631045615:geom_bar(aes(y=sleep_total), stat="summary", fun=mean)
+1694631045947:ggplot(msleep1, aes(x = vore, y = sleep_total))+
+1694631045949:geom_bar(stat="summary",fun=mean)+
+1694631045951:geom_errorbar(stat="summary", fun.data=mean_se, width=0.4)
+1694706652246:ChickWeight <- as.data.frame(ChickWeight)
+1694706670477:View(ChickWeight)
+1694706679370:head(ChickWeight,10)
+1694707028043:# your code goes below (make sure to edit comment)
+1694707028046:distinct_chicks <- lenght(unique(ChickWeight$Chick))
+1694707042684:# your code goes below (make sure to edit comment)
+1694707042686:distinct_chicks <- length(unique(ChickWeight$Chick))
+1694707145316:distinct_time <- length(unique(ChickWeight$Time))
+1694707439188:distinct_diets <-lenght(unique(ChickWeight$Diet))
+1694707481939:distinct_diets <-length(unique(ChickWeight$Diet))
+1694707514484:chicks_per_diet_initial <- table(ChickWeight$Diet[ChickWeight$Time == 0])
+1694708221336:library(ggplot2)
+1694708230639:ggplot(ChickWeight, aes(x = Time, y = weight)) +
+1694708230642:geom_point() +
+1694708230645:labs(title = "Chick Weight Over Time", x = "Time (days)", y = "Weight (grams)")
+1694725357247:# your code goes below (make sure to edit comment)
+1694725357266:ggplot(ChickWeight, aes(x = Time, y = weight, color = as.factor(Chick))) +
+1694725357269:geom_line() +
+1694725357272:geom_point() +
+1694725357274:labs(title = "Chick Weight Over Time by Chick", x = "Time (days)", y = "Weight (grams)") +
+1694725357277:theme(legend.position = "none")
+1694725991891:# your code goes below (make sure to edit comment)
+1694725991894:ggplot(ChickWeight, aes(x = Time, y = weight, color = as.factor(Chick))) +
+1694725991897:geom_line() +
+1694725991900:geom_point(aes(color = NULL), color = "white") +
+1694725991903:labs(title = "Chick Weight Over Time by Chick", x = "Time (days)", y = "Weight (grams)") +
+1694725991911:theme(legend.position = "none")
+1694727688788:# your code goes below (make sure to edit comment)
+1694727688791:ggplot(ChickWeight, aes(x = Time, y = weight, color = as.factor(Chick))) +
+1694727688794:geom_line() +
+1694727688797:geom_point(aes(color = NULL), color = "white") +
+1694727688800:labs(title = "Chick Weight Over Time by Diet", x = "Time (days)", y = "Weight (grams)") +
+1694727688803:theme(legend.position = "none") +
+1694727688806:facet_wrap(~Diet)
+1694791355460:# your code goes below (make sure to edit comment)
+1694791355463:ggplot(ChickWeight, aes(x = Time, y = weight, color = as.factor(Diet))) +
+1694791355466:geom_point() +
+1694791355469:geom_smooth(method = "lm", se = FALSE) +
+1694791355471:labs(title = "Chick Weight Over Time with Linear Regression by Diet",
+1694791355474:x = "Time (days)", y = "Weight (grams)")
+1694791825355:max_time <- max(ChickWeight$Time)
+1694791833355:avg_weight_last_time <- aggregate(weight ~ Diet, data = ChickWeight[ChickWeight$Time == last_time,], mean)
+1694791865995:avg_weight_max_time <- aggregate(weight ~ Diet, data = ChickWeight[ChickWeight$Time == max_time,], mean)
+1694791877841:# your code goes below (make sure to edit comment)
+1694791877844:max_time <- max(ChickWeight$Time)
+1694791877848:avg_weight_max_time <- aggregate(weight ~ Diet, data = ChickWeight[ChickWeight$Time == max_time,], mean)
+1694791877857:ggplot(avg_weight_last_time, aes(x = as.factor(Diet), y = weight, fill = as.factor(Diet))) +
+1694791877860:geom_bar(stat = "identity") +
+1694791877863:scale_y_continuous(name = "Average Weight (grams)", breaks = seq(0, 300, 25)) +
+1694791877865:labs(title = "Average Chick Weight by Diet at the End of the Experiment")
+1694791901802:ggplot(avg_weight_max_time, aes(x = as.factor(Diet), y = weight, fill = as.factor(Diet))) +
+1694791901805:geom_bar(stat = "identity") +
+1694791901807:scale_y_continuous(name = "Average Weight (grams)", breaks = seq(0, 300, 25)) +
+1694791901809:labs(title = "Average Chick Weight by Diet at the End of the Experiment")
+1694792589899:# your code goes below (make sure to edit comment)
+1694792589902:avg_weight_all_time <- aggregate(weight ~ Diet + Time, data = ChickWeight, mean)
+1694792589911:se_weight_all_time <- aggregate(weight ~ Diet + Time, data = ChickWeight, function(x) sd(x)/sqrt(length(x)))
+1694792589928:ggplot(avg_weight_all_time[avg_weight_all_time$Time == max_time,], aes(x = as.factor(Diet), y = weight, fill = as.factor(Diet))) +
+1694792589931:geom_bar(stat = "identity") +
+1694792589934:geom_errorbar(aes(ymin = weight - se_weight_all_time$weight, ymax = weight + se_weight_max _time$weight), width = 0.5) +
+1694792748286:ggplot(avg_weight_all_time[avg_weight_all_time$Time == max_time,], aes(x = as.factor(Diet), y = weight, fill = as.factor(Diet))) +
+1694792748289:geom_bar(stat = "identity") +
+1694792748292:geom_errorbar(aes(ymin = weight - se_weight_all_time$weight, ymax = weight + se_weight_max_time$weight), width = 0.5) +
+1694792748296:scale_fill_brewer(palette = "Pastel1") +
+1694792748299:labs(title = "Average Chick Weight by Diet with Error Bars")
+1694792863585:# your code goes below (make sure to edit comment)
+1694792863588:avg_weight_all_time <- aggregate(weight ~ Diet + Time, data = ChickWeight, mean)
+1694792863596:se_weight_all_time <- aggregate(weight ~ Diet + Time, data = ChickWeight, function(x) sd(x)/sqrt(length(x)))
+1694792863609:ggplot(avg_weight_max_time[avg_weight_all_time$Time == max_time,], aes(x = as.factor(Diet), y = weight, fill = as.factor(Diet))) +
+1694792863612:geom_bar(stat = "identity") +
+1694792863615:geom_errorbar(aes(ymin = weight - se_weight_all_time$weight, ymax = weight + se_weight_max_time$weight), width = 0.5) +
+1694792863619:scale_fill_brewer(palette = "Pastel1") +
+1694792863622:labs(title = "Average Chick Weight by Diet with Error Bars")
+1694792896961:# your code goes below (make sure to edit comment)
+1694792896965:avg_weight_all_time <- aggregate(weight ~ Diet + Time, data = ChickWeight, mean)
+1694792896977:se_weight_all_time <- aggregate(weight ~ Diet + Time, data = ChickWeight, function(x) sd(x)/sqrt(length(x)))
+1694792896996:ggplot(avg_weight_all_time[avg_weight_all_time$Time == last_time,], aes(x = as.factor(Diet), y = weight, fill = as.factor(Diet))) +
+1694792896999:geom_bar(stat = "identity") +
+1694792897002:geom_errorbar(aes(ymin = weight - se_weight_all_time$weight, ymax = weight + se_weight_all_time$weight), width = 0.5) +
+1694792897004:scale_fill_brewer(palette = "Pastel1") +
+1694792897007:labs(title = "Average Chick Weight by Diet with Error Bars")
+1694792907999:# your code goes below (make sure to edit comment)
+1694792908002:avg_weight_all_time <- aggregate(weight ~ Diet + Time, data = ChickWeight, mean)
+1694792908011:se_weight_all_time <- aggregate(weight ~ Diet + Time, data = ChickWeight, function(x) sd(x)/sqrt(length(x)))
+1694792908024:ggplot(avg_weight_all_time[avg_weight_all_time$Time == max_time,], aes(x = as.factor(Diet), y = weight, fill = as.factor(Diet))) +
+1694792908027:geom_bar(stat = "identity") +
+1694792908030:geom_errorbar(aes(ymin = weight - se_weight_all_time$weight, ymax = weight + se_weight_all_time$weight), width = 0.5) +
+1694792908033:scale_fill_brewer(palette = "Pastel1") +
+1694792908036:labs(title = "Average Chick Weight by Diet with Error Bars")
+1694794146428:# your code goes below (make sure to edit comment)
+1694794146432:se_weight_last_time <- aggregate(weight ~ Diet, data = ChickWeight[ChickWeight$Time == last_time,],
+1694794146435:function(x) sd(x)/sqrt(length(x)))
+1694794194453:# your code goes below (make sure to edit comment)
+1694794194456:se_weight_last_time <- aggregate(weight ~ Diet, data = ChickWeight[ChickWeight$Time == max_time,],
+1694794194459:function(x) sd(x)/sqrt(length(x)))
+1694794194471:merged_data <- merge(avg_weight_last_time, se_weight_last_time, by = "Diet", suffixes = c("_mean", "_se"))
+1694812321584:# your code goes below (make sure to edit comment)
+1694812321615:se_weight_last_time <- aggregate(weight ~ Diet, data = ChickWeight[ChickWeight$Time == max_time,],
+1694812321617:function(x) sd(x)/sqrt(length(x)))
+1694812321632:merged_data <- merge(avg_weight_last_time, se_weight_last_time, by = "Diet", suffixes = c("_mean", "_se"))
+1694815237113:# your code goes below (make sure to edit comment)
+1694815237116:max_time <- max(ChickWeight$Time)
+1694815237121:avg_weight_max_time <- aggregate(weight ~ Diet, data = ChickWeight[ChickWeight$Time == max_time,], mean)
+1694815237130:ggplot(avg_weight_max_time, aes(x = as.factor(Diet), y = weight, fill = as.factor(Diet))) +
+1694815237133:geom_bar(stat = "identity") +
+1694815237136:scale_y_continuous(name = "Average Weight (grams)", breaks = seq(0, 300, 25)) +
+1694815237140:labs(title = "Average Chick Weight by Diet at the End of the Experiment")
+1694815237415:avg_weight_last_time <- aggregate(weight ~ Diet, data_last_time, mean)
+1694815255171:# your code goes below (make sure to edit comment)
+1694815255174:max_time <- max(ChickWeight$Time)
+1694815255179:avg_weight_max_time <- aggregate(weight ~ Diet, data = ChickWeight[ChickWeight$Time == max_time,], mean)
+1694815255189:ggplot(avg_weight_max_time, aes(x = as.factor(Diet), y = weight, fill = as.factor(Diet))) +
+1694815255192:geom_bar(stat = "identity") +
+1694815255195:scale_y_continuous(name = "Average Weight (grams)", breaks = seq(0, 300, 25)) +
+1694815255198:labs(title = "Average Chick Weight by Diet at the End of the Experiment")
+1694816737291:max_time <- max(ChickWeight$Time)
+1694816869755:data_last_time <- ChickWeight[ChickWeight$Time == last_time,]
+1694816890768:data_last_time <- ChickWeight[ChickWeight$Time == max_time,]
+1694816897118:data_last_time <- ChickWeight[ChickWeight$Time == max_time,]
+1694817142921:# your code goes below (make sure to edit comment)
+1694817142924:max_time <- max(ChickWeight$Time)
+1694817142930:data_last_time <- ChickWeight[ChickWeight$Time == max_time,]
+1694817142942:avg_weight_max_time <- aggregate(weight ~ Diet, data = ChickWeight[ChickWeight$Time == max_time,], mean)
+1694817142952:ggplot(avg_weight_max_time, aes(x = as.factor(Diet), y = weight, fill = as.factor(Diet))) +
+1694817142955:geom_bar(stat = "identity") +
+1694817142959:scale_y_continuous(name = "Average Weight (grams)", breaks = seq(0, 300, 25)) +
+1694817142962:labs(title = "Average Chick Weight by Diet at the End of the Experiment")
+1694817508150:# your code goes below (make sure to edit comment)
+1694817508159:se_weight_last_time <- aggregate(weight ~ Diet, data_last_time, function(x) sd(x)/sqrt(length(x)))
+1694817508173:merged_data <- merge(avg_weight_last_time, se_weight_last_time, by = "Diet", suffixes = c("_mean", "_se"))
+1694817612082:# your code goes below (make sure to edit comment)
+1694817612089:se_weight_last_time <- aggregate(weight ~ Diet, data_last_time, function(x) sd(x)/sqrt(length(x)))
+1694817612101:merged_data <- merge(avg_weight_last_time, se_weight_max_time, by = "Diet", suffixes = c("_mean", "_se"))
+1694817838624:# your code goes below (make sure to edit comment)
+1694817838632:se_weight_last_time <- aggregate(weight ~ Diet, data_last_time, function(x) sd(x)/sqrt(length(x)))
+1694817838644:merged_data <- merge(avg_weight_last_time, se_weight__time, by = "Diet", suffixes = c("_mean", "_se"))
+1694817849640:# your code goes below (make sure to edit comment)
+1694817849648:se_weight_last_time <- aggregate(weight ~ Diet, data_last_time, function(x) sd(x)/sqrt(length(x)))
+1694817849662:merged_data <- merge(avg_weight_max_time, se_weight__time, by = "Diet", suffixes = c("_mean", "_se"))
+1694820609209:# your code goes below (make sure to edit comment)
+1694820609217:se_weight_last_time <- aggregate(weight ~ Diet, data_last_time, function(x) sd(x)/sqrt(length(x)))
+1694820609229:merged_data <- merge(avg_weight_max_time, se_weight__time, by = "Diet", suffixes = c("_mean", "_se"))
+1694820619260:# your code goes below (make sure to edit comment)
+1694820619267:se_weight_last_time <- aggregate(weight ~ Diet, data_last_time, function(x) sd(x)/sqrt(length(x)))
+1694820619278:merged_data <- merge(avg_weight_max_time, se_weight_time, by = "Diet", suffixes = c("_mean", "_se"))
+1694820695260:# your code goes below (make sure to edit comment)
+1694820695263:last_time <- max(ChickWeight$Time)
+1694820695268:data_last_time <- ChickWeight[ChickWeight$Time == last_time,]
+1694820695285:# Compute average weight for each diet
+1694820695288:avg_weight_last_time <- aggregate(weight ~ Diet, data_last_time, mean)
+1694820695297:# Bar graph representing average chick weight for each diet
+1694820695300:ggplot(avg_weight_last_time, aes(x = as.factor(Diet), y = weight, fill = as.factor(Diet))) +
+1694820695303:geom_bar(stat = "identity") +
+1694820695306:labs(title = "Average Chick Weight by Diet at Last Time Point",
+1694820695309:x = "Diet",
+1694820695312:y = "Average Weight (grams)") +
+1694820695315:scale_y_continuous(breaks = seq(0, 300, 25))
+1694820717037:# your code goes below (make sure to edit comment)
+1694820717045:se_weight_last_time <- aggregate(weight ~ Diet, data_last_time, function(x) sd(x)/sqrt(length(x)))
+1694820717056:merged_data <- merge(avg_weight_max_time, se_weight_time, by = "Diet", suffixes = c("_mean", "_se"))
+1694820743042:# your code goes below (make sure to edit comment)
+1694820743051:se_weight_last_time <- aggregate(weight ~ Diet, data_last_time, function(x) sd(x)/sqrt(length(x)))
+1694820743062:merged_data <- merge(avg_weight_max_time, se_weight_time, by = "Diet", suffixes = c("_mean", "_se"))
+1694820756640:se_weight_last_time <- aggregate(weight ~ Diet, data_last_time, function(x) sd(x)/sqrt(length(x)))
+1694820758592:# your code goes below (make sure to edit comment)
+1694820758599:se_weight_last_time <- aggregate(weight ~ Diet, data_last_time, function(x) sd(x)/sqrt(length(x)))
+1694820758617:merged_data <- merge(avg_weight_max_time, se_weight_time, by = "Diet", suffixes = c("_mean", "_se"))
+1694820776434:# your code goes below (make sure to edit comment)
+1694820776442:se_weight_last_time <- aggregate(weight ~ Diet, data_last_time, function(x) sd(x)/sqrt(length(x)))
+1694820776453:merged_data <- merge(avg_weight_last_time, se_weight_time, by = "Diet", suffixes = c("_mean", "_se"))
+1694820892843:# your code goes below (make sure to edit comment)
+1694820892846:# Replacing bars with points
+1694820892850:ggplot(avg_weight_all_time[avg_weight_all_time$Time == last_time,], aes(x = as.factor(Diet), y = weight, color = as.factor(Diet))) +
+1694820892853:geom_point(size = 4, color = "red") +
+1694820892856:geom_errorbar(aes(ymin = weight - se_weight_all_time$weight, ymax = weight + se_weight_all_time$weight), width = 0.5) +
+1694820892861:labs(title = "Average Chick Weight by Diet with Error Bars")
+1694820960910:# your code goes below (make sure to edit comment)
+1694820960914:# Comparing the mean weight of each Diet over Time
+1694820960917:ggplot(avg_weight_all_time, aes(x = Time, y = weight, color = as.factor(Diet))) +
+1694820960920:geom_point(shape = 4, size = 3) +  # Using 'x' symbols for points
+1694820960924:geom_line(aes(group = Diet)) +
+1694820960927:labs(title = "Mean Chick Weight Over Time by Diet")
+1694825199978:# your code goes below (make sure to edit comment)
+1694825199987:# Compute standard error for each diet
+1694825199992:se_weight_last_time <- aggregate(weight ~ Diet, data_last_time, function(x) sd(x)/sqrt(length(x)))
+1694825200005:# Merge the average weight and standard error data
+1694825200008:merged_data <- merge(avg_weight_last_time, se_weight_last_time, by = "Diet", suffixes = c("_mean", "_se"))
+1694825200017:# Bar graph with error bars
+1694825200020:ggplot(merged_data, aes(x = as.factor(Diet), y = weight_mean, fill = as.factor(Diet))) +
+1694825200023:geom_bar(stat = "identity") +
+1694825200026:geom_errorbar(aes(ymin = weight_mean - weight_se, ymax = weight_mean + weight_se), width = 0.5) +
+1694825200029:scale_fill_brewer(palette = "Pastel1") +
+1694825200033:labs(title = "Average Chick Weight by Diet with Error Bars",
+1694825200036:x = "Diet",
+1694825200039:y = "Average Weight (grams)") +
+1694825200042:scale_y_continuous(breaks = seq(0, 300, 25))
+1694825423708:# your code goes below (make sure to edit comment)
+1694825423711:ggplot(merged_data, aes(x = as.factor(Diet), y = weight_mean)) +
+1694825423714:geom_errorbar(aes(ymin = weight_mean - weight_se, ymax = weight_mean + weight_se), width = 0.5) +
+1694825423717:geom_point(color = "red", size = 4) +
+1694825423720:labs(title = "Average Chick Weight by Diet with Error Bars",
+1694825423723:x = "Diet",
+1694825423726:y = "Average Weight (grams)") +
+1694825423729:theme_minimal()
+1694825687648:# your code goes below (make sure to edit comment)
+1694825687651:avg_weight_all_time <- ChickWeight %>%
+1694825687655:group_by(Diet, Time) %>%
+1694825687658:summarise(weight_mean = mean(weight, na.rm = TRUE),
+1694825687662:weight_se = sd(weight, na.rm = TRUE) / sqrt(n()))
+1694825761161:# your code goes below (make sure to edit comment)
+1694825761165:# Install the dplyr package (you only need to do this once)
+1694825761168:install.packages("dplyr")
+1694825761177:# Load the dplyr package
+1694825761180:library(dplyr)
+1694825761218:# Now, you can run the previous code to calculate avg_weight_all_time and plot for Question 9
+1694825761222:avg_weight_all_time <- ChickWeight %>%
+1694825761230:group_by(Diet, Time) %>%
+1694825761233:summarise(weight_mean = mean(weight, na.rm = TRUE),
+1694825761237:weight_se = sd(weight, na.rm = TRUE) / sqrt(n()))
+1694825761333:# Scatter plot with error bars for Question 9
+1694825761336:ggplot(avg_weight_all_time, aes(x = as.factor(Diet), y = weight_mean)) +
+1694825761340:geom_errorbar(aes(ymin = weight_mean - weight_se, ymax = weight_mean + weight_se), width = 0.5) +
+1694825761343:geom_point(color = "red", size = 4) +
+1694825761346:labs(title = "Average Chick Weight by Diet Over Time with Error Bars",
+1694825762158:x = "Diet",
+1694825762163:y = "Average Weight (grams)") +
+1694825762166:theme_minimal()
+1694825768041:install.packages("dplyr")
+1694825873237:# Scatter plot with error bars
+1694825873241:ggplot(merged_data, aes(x = as.factor(Diet), y = weight_mean)) +
+1694825873244:geom_errorbar(aes(ymin = weight_mean - weight_se, ymax = weight_mean + weight_se), width = 0.5) +
+1694825873249:geom_point(color = "red", size = 4) +
+1694825873254:labs(title = "Average Chick Weight by Diet with Error Bars",
+1694825873257:x = "Diet",
+1694825873260:y = "Average Weight (grams)") +
+1694825873264:theme_minimal()
+1694825876252:# Scatter plot with error bars
+1694825876256:ggplot(merged_data, aes(x = as.factor(Diet), y = weight_mean)) +
+1694825876259:geom_errorbar(aes(ymin = weight_mean - weight_se, ymax = weight_mean + weight_se), width = 0.5) +
+1694825876262:geom_point(color = "red", size = 4) +
+1694825876265:labs(title = "Average Chick Weight by Diet with Error Bars",
+1694825876268:x = "Diet",
+1694825876271:y = "Average Weight (grams)") +
+1694825876274:theme_minimal()
+1694826018444:# Scatter plot with error bars
+1694826018448:# Calculate average weight for each diet over all time points
+1694826018452:avg_weight_all_time <- ChickWeight %>%
+1694826018455:group_by(Diet, Time) %>%
+1694826018458:summarise(weight_mean = mean(weight, na.rm = TRUE),
+1694826018462:weight_se = sd(weight, na.rm = TRUE) / sqrt(n()))
+1694826043528:# Scatter plot with error bars
+1694826043532:avg_weight_all_time <- ChickWeight %>%
+1694826043535:group_by(Diet, Time) %>%
+1694826043539:summarise(weight_mean = mean(weight, na.rm = TRUE),
+1694826043542:weight_se = sd(weight, na.rm = TRUE) / sqrt(n()))
+1694826074624:# Scatter plot with error bars
+1694826074628:avg_weight_all_time <- ChickWeight %>%
+1694826074631:group_by(Diet, Time) %>%
+1694826074634:summarise(weight_mean = mean(weight, na.rm = TRUE),
+1694826074637:weight_se = sd(weight, na.rm = TRUE) / sqrt(n()))
+1694826100580:# Scatter plot with error bars
+1694826100584:avg_weight_all_time <- ChickWeight %>%
+1694826100587:group_by(Diet, Time) %>%
+1694826100591:summarise(weight_mean = mean(weight, na.rm = TRUE),
+1694826100595:weight_se = sd(weight, na.rm = TRUE) / sqrt(n()))
+1694826116638:ggplot(avg_weight_all_time, aes(x = as.factor(Diet), y = weight_mean)) +
+1694826116641:geom_errorbar(aes(ymin = weight_mean - weight_se, ymax = weight_mean + weight_se), width = 0.5) +
+1694826116645:geom_point(color = "red", size = 4) +
+1694826116648:labs(title = "Average Chick Weight by Diet Over Time with Error Bars",
+1694826116651:x = "Diet",
+1694826116656:y = "Average Weight (grams)") +
+1694826116661:theme_minimal()
+1694826165023:avg_weight_all_time <- ChickWeight %>%
+1694826165026:group_by(Diet, Time) %>%
+1694826165030:summarise(weight_mean = mean(weight, na.rm = TRUE),
+1694826165033:weight_se = sd(weight, na.rm = TRUE) / sqrt(n()))
+1694826363936:avg_weight_last_time <- ChickWeight %>%
+1694826363940:filter(Time == max(Time)) %>%
+1694826363943:group_by(Diet) %>%
+1694826363947:summarise(weight_mean = mean(weight, na.rm = TRUE),
+1694826363950:weight_se = sd(weight, na.rm = TRUE) / sqrt(n()))
+1694826434523:avg_weight_last_time <- ChickWeight %>%
+1694826434527:filter(Time == max(Time)) %>%
+1694826434530:group_by(Diet) %>%
+1694826434538:summarise(weight_mean = mean(weight, na.rm = TRUE),
+1694826434541:weight_se = sd(weight, na.rm = TRUE) / sqrt(n()))
+1694826466023:# Save dataset as a dataframe
+1694826466027:ChickWeight <- as.data.frame(ChickWeight)
+1694826466032:# Visualize the first ten rows of the dataset
+1694826466036:head(ChickWeight,10)
+1694826468374:# your code goes below (make sure to edit comment)
+1694826468378:distinct_chicks <- length(unique(ChickWeight$Chick))
+1694826468387:distinct_time <- length(unique(ChickWeight$Time))
+1694826468393:distinct_diets <-length(unique(ChickWeight$Diet))
+1694826468399:chicks_per_diet_initial <- table(ChickWeight$Diet[ChickWeight$Time == 0])
+1694826471176:# Load package
+1694826471180:library(ggplot2)
+1694826471669:# your code goes below (make sure to edit comment)
+1694826471672:ggplot(ChickWeight, aes(x = Time, y = weight)) +
+1694826471676:geom_point() +
+1694826471679:labs(title = "Chick Weight Over Time", x = "Time (days)", y = "Weight (grams)")
+1694826474982:# your code goes below (make sure to edit comment)
+1694826474986:ggplot(ChickWeight, aes(x = Time, y = weight, color = as.factor(Chick))) +
+1694826474991:geom_line() +
+1694826474994:geom_point() +
+1694826474997:labs(title = "Chick Weight Over Time by Chick", x = "Time (days)", y = "Weight (grams)") +
+1694826475001:theme(legend.position = "none")
+1694826477690:# your code goes below (make sure to edit comment)
+1694826477693:ggplot(ChickWeight, aes(x = Time, y = weight, color = as.factor(Chick))) +
+1694826477696:geom_line() +
+1694826477699:geom_point(aes(color = NULL), color = "white") +
+1694826477702:labs(title = "Chick Weight Over Time by Chick", x = "Time (days)", y = "Weight (grams)") +
+1694826477705:theme(legend.position = "none")
+1694826477865:max()
+1694826482807:# your code goes below (make sure to edit comment)
+1694826482811:ggplot(ChickWeight, aes(x = Time, y = weight, color = as.factor(Chick))) +
+1694826482814:geom_line() +
+1694826482818:geom_point(aes(color = NULL), color = "white") +
+1694826482821:labs(title = "Chick Weight Over Time by Diet", x = "Time (days)", y = "Weight (grams)") +
+1694826482824:theme(legend.position = "none") +
+1694826482827:facet_wrap(~Diet)
+1694826486005:# your code goes below (make sure to edit comment)
+1694826486008:ggplot(ChickWeight, aes(x = Time, y = weight, color = as.factor(Diet))) +
+1694826486012:geom_point() +
+1694826486015:geom_smooth(method = "lm", se = FALSE) +
+1694826486018:labs(title = "Chick Weight Over Time with Linear Regression by Diet",
+1694826486021:x = "Time (days)", y = "Weight (grams)")
+1694826492126:# your code goes below (make sure to edit comment)
+1694826492129:last_time <- max(ChickWeight$Time)
+1694826492134:data_last_time <- ChickWeight[ChickWeight$Time == last_time,]
+1694826492147:avg_weight_last_time <- aggregate(weight ~ Diet, data_last_time, mean)
+1694826492159:ggplot(avg_weight_last_time, aes(x = as.factor(Diet), y = weight, fill = as.factor(Diet))) +
+1694826492163:geom_bar(stat = "identity") +
+1694826492166:labs(title = "Average Chick Weight by Diet at Last Time Point",
+1694826492170:x = "Diet",
+1694826492174:y = "Average Weight (grams)") +
+1694826492177:scale_y_continuous(breaks = seq(0, 300, 25))
+1694826495617:# your code goes below (make sure to edit comment)
+1694826495627:# Compute standard error for each diet
+1694826495629:se_weight_last_time <- aggregate(weight ~ Diet, data_last_time, function(x) sd(x)/sqrt(length(x)))
+1694826495643:# Merge the average weight and standard error data
+1694826495647:merged_data <- merge(avg_weight_last_time, se_weight_last_time, by = "Diet", suffixes = c("_mean", "_se"))
+1694826495661:# Bar graph with error bars
+1694826495664:ggplot(merged_data, aes(x = as.factor(Diet), y = weight_mean, fill = as.factor(Diet))) +
+1694826495668:geom_bar(stat = "identity") +
+1694826495671:geom_errorbar(aes(ymin = weight_mean - weight_se, ymax = weight_mean + weight_se), width = 0.5) +
+1694826495674:scale_fill_brewer(palette = "Pastel1") +
+1694826495678:labs(title = "Average Chick Weight by Diet with Error Bars",
+1694826495681:x = "Diet",
+1694826495687:y = "Average Weight (grams)") +
+1694826495692:scale_y_continuous(breaks = seq(0, 300, 25))
+1694826500233:avg_weight_last_time <- ChickWeight %>%
+1694826500238:filter(Time == max(Time)) %>%
+1694826500242:group_by(Diet) %>%
+1694826500246:summarise(weight_mean = mean(weight, na.rm = TRUE),
+1694826500249:weight_se = sd(weight, na.rm = TRUE) / sqrt(n()))
+1694826608729:install.packages("dplyr")
+1694826619898:install.packages("dplyr")
+1694826640464:library(dplyr)
+1694826651254:avg_weight_last_time <- ChickWeight %>%
+1694826651257:filter(Time == max(Time)) %>%
+1694826651261:group_by(Diet) %>%
+1694826651264:summarise(weight_mean = mean(weight, na.rm = TRUE),
+1694826651267:weight_se = sd(weight, na.rm = TRUE) / sqrt(n()))
+1694826651327:ggplot(avg_weight_last_time, aes(x = as.factor(Diet), y = weight_mean)) +
+1694826651330:geom_errorbar(aes(ymin = weight_mean - weight_se, ymax = weight_mean + weight_se), width = 0.5) +
+1694826651333:geom_point(color = "red", size = 4) +
+1694826651336:labs(title = "Average Chick Weight by Diet with Error Bars",
+1694826651339:x = "Diet",
+1694826651342:y = "Average Weight (grams)") +
+1694826651345:scale_fill_brewer(palette = "Pastel1")
+1694826697740:library(ggplot2)
+1694826723278:install.packages("ggplot2")
+1694826725566:install.packages("ggplot2")
+1694826748022:library(ggplot2)
+1694826754070:avg_weight_last_time <- ChickWeight %>%
+1694826754073:filter(Time == max(Time)) %>%
+1694826754077:group_by(Diet) %>%
+1694826754080:summarise(weight_mean = mean(weight, na.rm = TRUE),
+1694826754083:weight_se = sd(weight, na.rm = TRUE) / sqrt(n()))
+1694826754106:ggplot(avg_weight_last_time, aes(x = as.factor(Diet), y = weight_mean)) +
+1694826754109:geom_errorbar(aes(ymin = weight_mean - weight_se, ymax = weight_mean + weight_se), width = 0.5) +
+1694826754112:geom_point(color = "red", size = 4) +
+1694826754115:labs(title = "Average Chick Weight by Diet with Error Bars",
+1694826754118:x = "Diet",
+1694826754121:y = "Average Weight (grams)") +
+1694826754125:scale_fill_brewer(palette = "Pastel1")
+1694827122459:library(ggplot2)
+1694827186675:# Ensure dplyr is loaded
+1694827186678:library(dplyr)
+1694827186683:# Calculate average weight and standard error for the last time point
+1694827186687:avg_weight_last_time <- ChickWeight %>%
+1694827186689:filter(Time == max(Time)) %>%
+1694827186692:group_by(Diet) %>%
+1694827186695:summarise(weight_mean = mean(weight, na.rm = TRUE),
+1694827186698:weight_se = sd(weight, na.rm = TRUE) / sqrt(n()))
+1694827186720:# Plot
+1694827186724:library(ggplot2)
+1694827186726:ggplot(avg_weight_last_time, aes(x = as.factor(Diet), y = weight_mean)) +
+1694827186729:geom_errorbar(aes(ymin = weight_mean - weight_se, ymax = weight_mean + weight_se), width = 0.5) +
+1694827186732:geom_point(color = "red", size = 4) +
+1694827186734:labs(title = "Average Chick Weight by Diet with Error Bars",
+1694827186737:x = "Diet",
+1694827186739:y = "Average Weight (grams)")
+1694827304142:# your code goes below (make sure to edit comment)
+1694827304145:ggplot(avg_weight_last_time, aes(x = Time, y = weight, color = as.factor(Diet))) +
+1694827304149:geom_point(shape = 4, size = 3) +  # Using 'x' symbols for points
+1694827304153:geom_line(aes(group = Diet)) +
+1694827304156:labs(title = "Mean Chick Weight Over Time by Diet")
+1694827359645:avg_weight_last_time <- ChickWeight %>%
+1694827497328:# your code goes below (make sure to edit comment)
+1694827497334:avg_weight_all_time <- ChickWeight %>%
+1694827497338:group_by(Diet, Time) %>%
+1694827497342:summarise(weight_mean = mean(weight, na.rm = TRUE),
+1694827497346:weight_se = sd(weight, na.rm = TRUE) / sqrt(n()))
+1694827567396:# your code goes below (make sure to edit comment)
+1694827567401:# Calculate average weight over all time points for each diet
+1694827567404:avg_weight_all_time <- ChickWeight %>%
+1694827567407:group_by(Diet, Time) %>%
+1694827567410:summarise(weight_mean = mean(weight, na.rm = TRUE),
+1694827567413:weight_se = sd(weight, na.rm = TRUE) / sqrt(n()), .groups = 'drop')
+1694827567432:# Plot
+1694827567436:ggplot(avg_weight_all_time, aes(x = Time, y = weight_mean, color = as.factor(Diet))) +
+1694827567439:geom_line() +
+1694827567443:geom_point(aes(shape = as.factor(Diet))) +
+1694827567446:scale_shape_manual(values = c(4, 5, 6, 8)) +  # Using different shapes for each diet
+1694827567449:labs(title = "Average Chick Weight Over Time by Diet",
+1694827567452:x = "Time (days)",
+1694827567455:y = "Average Weight (grams)") +
+1694827567458:theme(legend.position = "bottom")
+1695100645192:library(haven)
+1695100645240:MEAP93 <- read_dta("HW/MEAP93.DTA")
+1695100645302:View(MEAP93)
+1695100744552:names(MEAP93)
+1695101019959:model <- lm(math10 ~ lexpend, data=MEAP93)
+1695101019972:summary(model)
+1695101205982:fitted_values <- fitted(model)
+1695101205986:max(fitted_values)
+1695163149398:plot(MEAP93$lexpend, MEAP93$math10, main="Scatterplot of math10 vs lexpend", xlab="lexpend", ylab="math10")
+1695163149440:abline(model, col="red")
+1695163149445:fitted_values <- fitted(model)
+1695163149447:plot(MEAP93$expend, fitted_values, main="Scatterplot of Fitted Values vs expend", xlab="expend", ylab="Fitted Values")
+1695163149468:MEAP93$math10 <- MEAP93$math10 / 100
+1695163149471:new_model <- lm(math10 ~ lexpend, data=MEAP93)
+1695163149476:summary(new_model)
+1695266647198:library(ggplot2)
+1695266661282:data(diamonds)
+1695266666925:library(ggplot2)
+1695266669285:data(diamonds)
+1695266680457:diamonds<-as.data.frame(diamonds)
+1695266703030:View(diamonds)
+1695267052266:num_cells <- nrow(diamonds) * ncol(diamonds)
+1695267262680:ggplot(data=dataset, aes(x=variable)) + geom_histogram()
+1695267284256:ggplot(data=diamonds, aes(x=variable)) + geom_histogram()
+1695267301430:ggplot(data=diamonds, aes(x=price)) + geom_histogram()
+1695267320021:hist(dataset$variable)
+1695267343882:hist(diamonds$price)
+1695267457688:ggplot(data=diamonds, aes(x=cut)) + geom_bar()
+1695267476667:barplot(table(diamonds$cut))
+1695267484152:table(diamonds$cut)
+1695267669094:ggplot(data=diamonds, aes(x=carat, y=price, color=clarity)) +
+1695267669097:geom_point() + geom_smooth(method="lm")
+1695276229044:ggplot(data=diamonds, aes(x=price, y=depth)) +
+1695276229047:geom_point() + geom_smooth(method="lm")
+1695276707521:ggplot(data=diamonds, aes(x=price, y=depth, color=clarity)) +
+1695276707524:geom_point() + geom_smooth(method="lm")
+1695276923806:ggplot(data=diamonds, aes(x=price)) + geom_histogram() + facet_wrap(~clarity)
+1695277062917:ggplot(data=diamonds, aes(x=price)) + geom_histogram() + facet_wrap(~clarity, scales="free_y")
+1695277252152:diamonds$volume <- diamonds$x * diamonds$y * diamonds$z
+1695277282762:ggplot(data=diamonds, aes(x=carat, y=volume)) +
+1695277282765:geom_point() + geom_smooth(method="lm")
+1695277417042:model <- lm(volume ~ carat, data=diamonds)
+1695277427526:residuals <- residuals(model)
+1695277443977:num_large_residuals <- sum(abs(residuals) > 500)
+1695277485643:bases <- c("A", "T", "C", "A", "G", "A")
+1695277604457:bases <- c("A", "T", "C", "A", "G", "A")
+1695277615830:print(bases)
+1695277673138:bases %in% c("A", "T")
+1695277727922:sum(c(TRUE, FALSE, TRUE))
+1695277736121:mean(c(TRUE, FALSE, TRUE))
+1695277753462:sum(bases == "A")
+1695277788622:mean(bases=="A")
+1695278012570:sum(bases =
+1695278012573:mean(bases=="A")
+1695278012577:# Count the number of diamonds that meet all the specified criteria
+1695278012580:num_diamonds <- sum(diamonds$cut %in% c("Ideal", "Premium") &
+1695278063969:# Count the number of diamonds that meet all the specified criteria
+1695278063972:num_diamonds <- sum(diamonds$cut %in% c("Ideal", "Premium") &
+1695278063975:diamonds$color %in% c("D", "E") &
+1695278063978:diamonds$clarity %in% c("IF", "VVS1"))
+1695278063995:# Print the result
+1695278063997:num_diamonds
+1695278168772:carat_75th_percentile <- quantile(diamonds$carat, 0.75)
+1695278180762:diamonds$fourC <- ifelse(diamonds$cut %in% c("Ideal", "Premium") &
+1695278180765:diamonds$color %in% c("D", "E") &
+1695278180768:diamonds$clarity %in% c("IF", "VVS1") &
+1695278180770:diamonds$carat > carat_75th_percentile,
+1695278180773:"yes", "no")
+1695278191944:proportion_fourC_yes <- mean(diamonds$fourC == "yes")
+1695278222496:proportion_fourC_yes

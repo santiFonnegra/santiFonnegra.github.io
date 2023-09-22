@@ -1,0 +1,61 @@
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval = TRUE,  
+                      warning = FALSE, message = FALSE, 
+                      fig.align = "center",
+                      R.options = list(max.print=100))
+
+
+#Tittle sf27787 Santiago Fonnegra
+
+
+head(mtcars)
+mymtcars <- mtcars
+sf27787 <-mtcars
+santis_b_day <- 8
+birthday_mpg <- mymtcars$mpg[santis_b_day]
+
+santis_b_day <- 8   # Assuming your birthday day is 8
+
+birthday_mpg <- mymtcars$mpg[santis_b_day]
+cat("Fuel Efficiency (mpg) on your birthday (day", santis_b_day, "):", birthday_mpg, "\n")
+
+
+sum(sf27787$mpg > 30)
+sum(mymtcars$mpg > 30)
+
+
+# Add a new variable 'kpl' to the dataset by converting 'mpg' to kpl
+mymtcars$kpl <- mymtcars$mpg * 0.425
+
+# Calculate the maximum kpl
+max_kpl <- max(mymtcars$kpl, na.rm = TRUE)
+
+# Print the result
+cat("Maximum Fuel Efficiency (kpl):", max_kpl, "\n")
+
+myair <- airquality
+
+
+mean_ozone <- mean(myair$Ozone)
+
+names(myair)
+
+mean_oz <- mean(myair$Ozone,na.rm = TRUE)
+
+mean_oz <- mean(myair$Ozone, na.rm = TRUE)
+
+mean_oz
+
+
+
+trimmed_mean_ozone <- mean(myair$ozone)
+trimmed_mean_oz <- mean(airquality$Ozone, trim = 0.1, na.rm = TRUE)
+trimmed_mean_oz
+
+
+trimmed_mean_oz <- mean(myair$Ozone, trim = 0.1, na.rm = TRUE)
+
+```{r, echo=F}
+## DO NOT DELETE THIS BLOCK!
+Sys.info()

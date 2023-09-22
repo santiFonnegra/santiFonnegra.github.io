@@ -1,0 +1,7 @@
+"0","# your code goes below (make sure to edit comment)"
+"0","ggplot(ChickWeight, aes(x = Time, y = weight, color = as.factor(Diet))) +"
+"0","  geom_point() +"
+"0","  geom_smooth(method = ""lm"", se = FALSE) +"
+"0","  labs(title = ""Chick Weight Over Time with Linear Regression by Diet"", "
+"0","       x = ""Time (days)"", y = ""Weight (grams)"")"
+"0",""

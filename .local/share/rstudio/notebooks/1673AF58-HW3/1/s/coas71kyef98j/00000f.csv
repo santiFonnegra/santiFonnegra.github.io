@@ -1,0 +1,5 @@
+"0","# Save dataset as a dataframe"
+"0","ChickWeight <- as.data.frame(ChickWeight)"
+"0",""
+"0","# Visualize the first ten rows of the dataset"
+"0","head(ChickWeight,10)"

@@ -1,0 +1,7 @@
+"0","logical_vector <- letters %in% test
+sum(!logical_vector)
+"
+"1","[1]"
+"1"," 23"
+"1","
+"

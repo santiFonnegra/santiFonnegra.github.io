@@ -1,0 +1,17 @@
+"0","# your code goes below (make sure to edit comment)"
+"0","positions <- c()"
+"0","for (letter in name_v){"
+"0","  positions <- c(positions, which( letters == letter))"
+"0","  "
+"0","}"
+"0",""
+"0","letters[positions]"
+"2","Error: Incomplete expression: # your code goes below (make sure to edit comment)
+positions <- c()
+for (letter in name_v){
+  positions <- c(positions, which( letters == letter))
+  
+}
+
+letters[positions]
+"

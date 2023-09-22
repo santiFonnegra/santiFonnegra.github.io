@@ -1,0 +1,7 @@
+# Test  
+
+
+```{r fig.width=10, echo=F}
+# option 4
+plot(co2)
+```

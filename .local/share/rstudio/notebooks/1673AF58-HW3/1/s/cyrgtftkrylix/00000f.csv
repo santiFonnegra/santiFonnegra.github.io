@@ -1,0 +1,8 @@
+"0","# Load package"
+"0","library(ggplot2)"
+"0",""
+"0","# your code goes below (make sure to edit comment)"
+"0","ggplot(ChickWeight, aes(x = Time, y = weight)) +"
+"0","  geom_point() +"
+"0","  labs(title = ""Chick Weight Over Time"", x = ""Time (days)"", y = ""Weight (grams)"")"
+"0",""

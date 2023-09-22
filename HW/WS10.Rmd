@@ -1,0 +1,186 @@
+---
+title: "WS10"
+author: ""
+output: html_document
+---
+
+# Data Wrangling!
+
+Let's do some wrangling!
+
+Take a look at the `txhousing` dataset, built in to the ggplot2 package
+
+```{R}
+library(tidyverse) #IMPORTANT: YOU MUST RUN THIS FIRST!
+data(txhousing)
+
+#glimpse() is a dplyr function similar to str() and head()
+glimpse(txhousing) 
+```
+
+## Filter
+
+Using `filter()` to grab the ROWS you want
+
+```{R}
+txhousing %>% filter(city=="Austin")
+
+txhousing %>% filter(sales<=100 & month==1) 
+
+txhousing %>% filter(sales<=100 | month==1)
+
+txhousing %>% filter(city %in% c("Austin","San Antonio")) # same as filter(city=="Austin | city=="San Antonio")
+
+txhousing %>% filter(between(sales,900,1000)) #same as filter(sales >= 900 & sales <= 1000)
+
+txhousing %>% filter(str_detect(city, "Fort")) #return all rows that have "Fort" in the city name
+``` 
+
+Using `slice()` to grab specific row numbers
+
+```{R}
+txhousing %>% slice(1,n()) #n() is shorthand for the last row number
+
+txhousing %>% slice(1:3)
+
+txhousing %>% slice()
+``` 
+
+### YOU TRY!
+
+Return rows of the `txhousing` dataset where the city is "Austin" AND the year is the maximum
+
+Note that just as in `ggplot`, you don't need to use $ or [] for anything!
+
+```{R}
+#try it!
+
+```
+
+Return rows of `txhousing` where the city contains the word "County" OR where `sales` are less than 100
+
+```{R}
+#try it!
+
+```
+
+
+## Arrange
+
+Using `arrange()` to sort the dataset
+
+```{R}
+txhousing %>% arrange(median) #default is ascending (least to greatest)
+
+txhousing %>% arrange(desc(median)) #desc gives descending (greatest to least)
+
+txhousing %>% arrange(-median) #minus sign gives you this behavior also
+
+txhousing %>% arrange(desc(city), desc(year), month) #sorting multiple variables: order matters!
+
+``` 
+
+### Practice
+
+`inventory` tells you the time it would take (months) to sell all current listings at current pace 
+
+Sort dataset by `inventory` from least-to-greatest 
+
+```{R}
+#try it!
+
+```
+
+
+## Select
+
+Select COLUMNS with `select()`
+
+```{R}
+#dont need c() or ""
+txhousing %>% select(city, year, inventory)
+
+txhousing %>% select(1,2,8)
+
+#use - to drop
+txhousing %>% select(-city,-year,-inventory)
+
+#use everything() to keep everything else in the same order
+
+#move median and inventory to the front, keep all other columns in same order
+txhousing %>% select(median, inventory, everything())
+``` 
+
+Grab columns whose names begin/end with or contain certain strings using `select()`
+
+```{R}
+txhousing %>% select(starts_with("m"))
+
+txhousing %>% select(ends_with("s"))
+
+txhousing %>% select(contains("in"))
+```
+
+
+Using `select()` and `rename()` to rename columns
+
+```{R}
+#syntax is always NewName=OldName
+
+#if you want spaces in column names (which I would avoid), you must quote the string
+
+txhousing %>% select(Location=city, "Calendar Year"=year, "Total Listings"=listings)
+
+#note that select only brings back the three columns you renamed
+
+#to return all columns and rename three of them, use rename instead
+
+txhousing %>% rename(Location=city, "Calendar Year"=year, "Total Listings"=listings)
+``` 
+
+## Select versus Pull
+
+Try selecting one column and saving it. What type of data is it?
+
+```{R}
+sales_df<- txhousing %>% select(sales)
+class(sales_df)
+``` 
+
+Now, instead of selecting, use `pull()`
+
+```{R}
+sales_vec<- txhousing %>% pull(sales)
+class(sales_vec)
+```
+
+Why is this important?
+
+```{R}
+mean(sales_df,na.rm=T) # cant take mean of a dataframe!
+mean(sales_vec,na.rm=T) # you CAN take mean of a vector
+``` 
+
+### Practice
+
+Select the variable `city` and select variables ending with "s"
+
+```{R}
+#try it!
+
+```
+
+Select the variables with names **not** containing the letter "a"
+
+```{R}
+#try it!
+
+```
+
+
+## Chaining functions together with pipes
+
+```{R}
+txhousing %>% filter(year==2015, month==7) %>% select(city, median) %>% arrange(desc(median))
+```
+

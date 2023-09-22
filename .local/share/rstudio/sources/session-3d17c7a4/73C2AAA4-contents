@@ -1,0 +1,12 @@
+# Test
+
+```{r fig.width=10, echo=F}
+# option 4
+plot(co2)
+```
+
+
+birthdays <- 1:365
+
+
+samp <- sample(birthdays, size=35, replace=T)

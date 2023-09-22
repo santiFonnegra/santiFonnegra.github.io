@@ -1,0 +1,19 @@
+"0","get_position <- function(name) {
+  name_v <- unlist(strsplit(name, split = """"))
+  positions <- c()
+  for (letter in name_v) {
+    positions <- c(positions, which(letters == letter))
+  }
+  return(positions)
+}
+
+# Testing the function with 'arya'
+get_position(""arya"")
+"
+"1","[1]"
+"1","  1"
+"1"," 18"
+"1"," 25"
+"1","  1"
+"1","
+"

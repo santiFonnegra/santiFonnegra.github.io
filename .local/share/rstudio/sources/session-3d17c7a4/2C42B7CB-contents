@@ -1,0 +1,73 @@
+library(ggplot2)
+data(diamonds) 
+diamonds<-as.data.frame(diamonds)
+
+
+num_cells <- nrow(diamonds) * ncol(diamonds)
+
+
+library(ggplot2)
+ggplot(data=diamonds, aes(x=price)) + geom_histogram()
+
+hist(diamonds$price) 
+ggplot(data=diamonds, aes(x=cut)) + geom_bar()
+barplot(table(diamonds$cut))
+table(diamonds$cut)
+
+ggplot(data=diamonds, aes(x=carat, y=price, color=clarity)) + 
+  geom_point() + geom_smooth(method="lm")
+
+ggplot(data=diamonds, aes(x=price, y=depth)) + 
+  geom_point() + geom_smooth(method="lm")
+
+
+ggplot(data=diamonds, aes(x=price, y=depth, color=clarity)) + 
+  geom_point() + geom_smooth(method="lm")
+
+ggplot(data=diamonds, aes(x=price)) + geom_histogram() + facet_wrap(~clarity)
+
+ggplot(data=diamonds, aes(x=price)) + geom_histogram() + facet_wrap(~clarity, scales="free_y")
+
+diamonds$volume <- diamonds$x * diamonds$y * diamonds$z
+
+library(ggplot2)
+ggplot(data=diamonds, aes(x=carat, y=volume)) + 
+  geom_point() + geom_smooth(method="lm")
+
+model <- lm(volume ~ carat, data=diamonds)
+residuals <- residuals(model)
+num_large_residuals <- sum(abs(residuals) > 500)
+
+
+
+bases <- c("A", "T", "C", "A", "G", "A")
+print(bases)
+
+bases %in% c("A", "T")
+
+
+sum(c(TRUE, FALSE, TRUE))
+mean(c(TRUE, FALSE, TRUE))
+
+
+# Count the number of diamonds that meet all the specified criteria
+num_diamonds <- sum(diamonds$cut %in% c("Ideal", "Premium") & 
+                      diamonds$color %in% c("D", "E") & 
+                      diamonds$clarity %in% c("IF", "VVS1"))
+
+# Print the result
+num_diamonds
+
+carat_75th_percentile <- quantile(diamonds$carat, 0.75)
+
+
+diamonds$fourC <- ifelse(diamonds$cut %in% c("Ideal", "Premium") & 
+                           diamonds$color %in% c("D", "E") & 
+                           diamonds$clarity %in% c("IF", "VVS1") & 
+                           diamonds$carat > carat_75th_percentile, 
+                         "yes", "no")
+
+
+
+proportion_fourC_yes <- mean(diamonds$fourC == "yes")
+proportion_fourC_yes

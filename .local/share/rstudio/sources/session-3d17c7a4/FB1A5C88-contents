@@ -1,0 +1,125 @@
+---
+title: "New document"
+output: html_document
+date: "2023-08-28"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plo
+
+
+library(dslabs)
+data(murders)
+murder_rate <- murders$total / murders$population*100000
+
+library(dslabs)
+
+data(murders)
+head(murders)
+
+murder_rate <- Murder$total / muder$population*1000
+murder_rate <- murders$total / muders$population*1000
+murder_rate <- murders$total / murders$population * 100000
+
+
+a <- 0
+
+if ( a != 0 ){
+  print(1/a)
+} else {
+  print("No reciprocal for 0.")
+}
+
+# load data
+library(dslabs)
+
+# a dataset of US gun murders by state for 2010
+data(murders)
+head(murders)
+
+# compute murder rate 
+murder_rate <- murders$total / murders$population * 100000
+
+# find the index of state with the lowest murder rate.
+ind <- which.min(murder_rate)
+
+if(murder_rate[ind] < 0.5){ 
+  print(murders$state[ind]) 
+} else{ 
+  print("No state has murder rate less than 0.5") 
+}
+
+# what is the merderer rate for the state of vermont?
+murder_rate[ind]
+
+
+# compute murder rate
+murder_rate <- murders$total / murders$population*100000
+
+any(murder_rate < 0.5)
+
+
+# exercise #1: 
+# Q1. have ever atmospheric carbon dioxideconcentration reached 500 ppm level? How about 400 ppm? 
+# Q3. Which years did it reach above 400 ppm level?
+data(historic_co2)
+ind <- which.min(co2)
+
+
+#other approach
+any(historic_co2$co2 > 500)
+any(historic_co2$co2 > 400)
+historic_co2$year[]
+
+
+
+# exercise #2:
+# Q. Define a function that computes the standard deviation of a data vector?
+
+compute_sd <- function(data_vector) {
+  n <- length(data_vector)
+  mean_value <- mean(data_vector)
+  variance <- sum((data_vector - mean_value)^2) / (n - 1)
+  sd_value <- sqrt(variance)
+  return(sd_value)
+}
+
+# Example usage:
+data_vector <- c(1, 2, 3, 4, 5)
+result <- compute_sd(data_vector)
+print(result)
+
+#
+# exercise #3:
+# Q. compute the square root of i for i=1 to 10 and print the result.
+
+
+
+
+
+for(i in l:n) {
+# task
+}
+for 
+        
